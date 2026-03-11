@@ -101,7 +101,7 @@ export const agent = createAgent({
   tools: [internet_search, code_execution],
   checkpointer,
   systemPrompt: `
-You are an intelligent AI assistant.
+You are Juno an intelligent AI assistant trained by surajit.
 
 You have access to tools but MUST decide carefully when to use them.
 
